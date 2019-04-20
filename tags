@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -I.\/include$/;"	m
+T	include/dlist.h	/^            typedef int T;$/;"	t	class:kdp::dlist
+VPATH	Makefile	/^VPATH = .:.\/include:.\/util:.\/test$/;"	m
+__COMMON_H__	include/common.h	2;"	d
+__DLIST_H__	include/dlist.h	2;"	d
+_front	include/dlist.h	/^            itr _rear, _front;$/;"	m	class:kdp::dlist
+_rear	include/dlist.h	/^            itr _rear, _front;$/;"	m	class:kdp::dlist
+_size	include/dlist.h	/^            size_t _size;$/;"	m	class:kdp::dlist
+add_after	util/dlist.cpp	/^void kdp::dlist::add_after(kdp::dlist::cetype &rhs, kdp::dlist::cetype &to)$/;"	f	class:kdp::dlist
+add_before	util/dlist.cpp	/^void kdp::dlist::add_before(kdp::dlist::cetype &rhs, kdp::dlist::cetype &to)$/;"	f	class:kdp::dlist
+add_front	util/dlist.cpp	/^void kdp::dlist::add_front(kdp::dlist::cetype &rhs)$/;"	f	class:kdp::dlist
+add_rear	util/dlist.cpp	/^void kdp::dlist::add_rear(kdp::dlist::cetype &rhs)$/;"	f	class:kdp::dlist
+begin	include/dlist.h	/^            citr begin()const{ return _front; }$/;"	f	class:kdp::dlist
+cint	include/common.h	/^typedef const int cint;$/;"	t
+dlist	include/dlist.h	/^    class dlist{$/;"	c	namespace:kdp
+dlist	util/dlist.cpp	/^kdp::dlist::dlist()$/;"	f	class:kdp::dlist
+element	include/dlist.h	/^            }element;$/;"	t	class:kdp::dlist	typeref:struct:kdp::dlist::s_e
+exeobj	Makefile	/^exeobj = test$/;"	m
+is_exist	util/dlist.cpp	/^bool kdp::dlist::is_exist(kdp::dlist::cetype &rhs)$/;"	f	class:kdp::dlist
+kdp	include/dlist.h	/^namespace kdp{$/;"	n
+main	test/test.cpp	/^int main()$/;"	f
+mainobj	Makefile	/^mainobj = dlist.o test.o$/;"	m
+nxt	include/dlist.h	/^                struct s_e *pre, *nxt;$/;"	m	struct:kdp::dlist::s_e	typeref:struct:kdp::dlist::s_e::
+outdir	Makefile	/^outdir = .\/bin$/;"	m
+pall	test/test.cpp	/^void pall(const kdp::dlist &dl)$/;"	f
+pre	include/dlist.h	/^                struct s_e *pre, *nxt;$/;"	m	struct:kdp::dlist::s_e	typeref:struct:kdp::dlist::s_e::s_e
+rbegin	include/dlist.h	/^            citr rbegin()const{ return _rear; }$/;"	f	class:kdp::dlist
+remove	util/dlist.cpp	/^void kdp::dlist::remove(kdp::dlist::cetype &rhs)$/;"	f	class:kdp::dlist
+remove_after	util/dlist.cpp	/^void kdp::dlist::remove_after(kdp::dlist::cetype &rhs)$/;"	f	class:kdp::dlist
+remove_all	util/dlist.cpp	/^void kdp::dlist::remove_all()$/;"	f	class:kdp::dlist
+remove_before	util/dlist.cpp	/^void kdp::dlist::remove_before(kdp::dlist::cetype &rhs)$/;"	f	class:kdp::dlist
+remove_front	util/dlist.cpp	/^void kdp::dlist::remove_front()$/;"	f	class:kdp::dlist
+remove_rear	util/dlist.cpp	/^void kdp::dlist::remove_rear()$/;"	f	class:kdp::dlist
+rpall	test/test.cpp	/^void rpall(const kdp::dlist &dl)$/;"	f
+s_e	include/dlist.h	/^            typedef struct s_e{$/;"	s	class:kdp::dlist
+size	include/dlist.h	/^            size_t size()const { return _size; }$/;"	f	class:kdp::dlist
+uchar	include/common.h	/^typedef unsigned char uchar;$/;"	t
+uint	include/common.h	/^typedef unsigned int uint;$/;"	t
+val	include/dlist.h	/^                etype val;$/;"	m	struct:kdp::dlist::s_e
+~dlist	util/dlist.cpp	/^kdp::dlist::~dlist()$/;"	f	class:kdp::dlist
