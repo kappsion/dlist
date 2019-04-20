@@ -1,10 +1,13 @@
 ##About
+
 This is a double-ended list writing in c++
 
 ##build
+
 make && ./bin/test
 
 ##interface
+
 add_front: add element in front
 add_rear:  add element in rear
 remove_front: delete element in front
@@ -15,4 +18,6 @@ remove: remove the specified element
 dlist: constructor
 
 ##todo
-implementation && test
+
+* iterator ++ operator
+* ...
