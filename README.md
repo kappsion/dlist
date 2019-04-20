@@ -1,12 +1,12 @@
-##About
+## about
 
 This is a double-ended list writing in c++
 
-##build
+## build
 
 make && ./bin/test
 
-##interface
+## interface
 
 add_front: add element in front
 add_rear:  add element in rear
@@ -17,7 +17,7 @@ remove_all: remove all
 remove: remove the specified element
 dlist: constructor
 
-##todo
+## todo
 
 * iterator ++ operator
 * ...
